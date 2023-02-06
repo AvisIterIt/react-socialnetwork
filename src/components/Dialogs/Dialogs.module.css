@@ -1,0 +1,35 @@
+.dialogs {
+  display: flex;
+  justify-content: space-around;
+}
+
+.dialogsItems {
+  flex-direction: column;
+}
+
+.dialog {
+  padding: 10px;
+}
+.dialog a {
+  text-decoration: none;
+}
+
+.messages {
+  flex-direction: column;
+}
+
+.message {
+  padding: 10px;
+}
+.btn {
+  background-color: rgb(134, 188, 74);
+  padding: 5px;
+  border: 1px solid rgb(134, 188, 74);
+  transition-duration: 0.2s;
+  transition-delay: 0.1s;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #000;
+  color: #fff;
+}

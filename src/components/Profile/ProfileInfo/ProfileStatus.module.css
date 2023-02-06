@@ -1,0 +1,10 @@
+.status span {
+  color: #000;
+}
+.status {
+  -webkit-user-select: none;
+}
+
+input {
+  outline: none;
+}

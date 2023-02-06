@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  background-color: rgb(43, 184, 43);
+  margin-bottom: 10px;
+  justify-content: space-between;
+}
+
+.header img {
+  width: 100px;
+  cursor: pointer;
+}
+.loginBlock {
+  padding: 20px;
+}
+.loginBlock a {
+  text-decoration: none;
+  color: #000;
+  transition-delay: 0.1s;
+  transition-duration: 0.2s;
+}
+.loginBlock a:hover {
+  color: teal;
+  border-bottom: 1px solid teal;
+}

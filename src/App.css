@@ -1,0 +1,12 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.nav__content {
+  display: flex;
+}
+.content {
+  flex-grow: 1;
+  margin-left: 10px;
+}
